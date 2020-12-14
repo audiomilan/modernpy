@@ -1,0 +1,12 @@
+We are now free to move on.
+Traceback (most recent call last):
+  File "tryme.py", line 5, in <module>
+    raise IndexError("This is an index error.")
+IndexError: This is an index error.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "tryme.py", line 7, in <module>
+    print(e + "Error excepted.")
+TypeError: unsupported operand type(s) for +: 'IndexError' and 'str'
